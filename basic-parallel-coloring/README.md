@@ -1,7 +1,6 @@
-#basic coloring algorithm
+# basic coloring algorithm
 
-This algorit
-Done with bit level operations. 
+This algorithm is done with bit level operations. 
 
 
 Pseudocode: 
@@ -17,3 +16,6 @@ Pseudocode:
 
 For further reading, chapter 2.7 "Introduction to parallel algorithms" by J. Jajá. 
 
+
+Compile with flag -fopenmp. It will fail if OpenMp is not installed before. Check if -lm is necessary. 
+This implementation only works with GCC compiler because of the use of the function __builtin_ctz().  
